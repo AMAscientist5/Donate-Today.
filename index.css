@@ -1,0 +1,336 @@
+ body {
+     margin: 0;
+     box-sizing: border-box;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+     height: 100%;
+ }
+ /* Baner Section Design Start Here */
+ 
+ .banar-section {
+     background-image: url(images/donation13.jpg);
+     background-repeat: no-repeat;
+     height: 850px;
+     background-position: center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     color: white;
+ }
+ 
+ .banar-div {
+     width: 826px;
+     margin: 0 auto;
+     position: relative;
+     top: 120px;
+ }
+ 
+ .banar-heading {
+     text-transform: capitalize;
+     font-size: 65px;
+     margin-bottom: 25px;
+     font-weight: 600;
+ }
+ 
+ .banar-text {
+     font-size: 20px;
+     margin-bottom: 30px;
+     font-weight: 200;
+     opacity: 0.8;
+ }
+ 
+ .banar-btn {
+     color: white;
+     text-decoration: none;
+     background-color: #FF5959;
+     width: 160px;
+     font-size: 16px;
+     padding: 8px 12px;
+     border-radius: 5px;
+ }
+ /* Baner Section Design End Here */
+ /* Donate Section Design Start Here */
+ 
+ .donate-section {
+     text-align: center;
+     height: 700px;
+ }
+ 
+ .donate-heading {
+     text-transform: capitalize;
+     font-size: 65px;
+     margin-bottom: 5px;
+     font-weight: 600;
+     margin-top: 150px;
+ }
+ 
+ .donate-text {
+     width: 780px;
+     margin: 30px auto;
+     font-size: 20px;
+     margin-bottom: 50px;
+     font-weight: 400;
+     opacity: 0.5;
+ }
+ 
+ .donate-amount-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .donate-amount-item {
+     width: 100px;
+     background-color: #FAFAFA;
+     color: #707070;
+     margin: 0 10px;
+     padding: 40px 0;
+     margin-bottom: 60px;
+     font-weight: 600;
+     font-size: 20px;
+ }
+ 
+ .donate-item2 {
+     background-color: #FFEEEE;
+     color: #FF5959;
+     border: 2px solid #FF5959;
+     border-radius: 5px;
+     font-weight: 700;
+ }
+ 
+ input[type=text] {
+     border: none;
+     border-bottom: 1px solid black;
+     margin-bottom: 40px;
+     width: 600px;
+     text-align: center;
+     font-size: 20px;
+     padding: 10px;
+     font-weight: 400;
+ }
+ /* Donate Section Design End Here */
+ /* Donation Plan Section Design Start Here */
+ 
+ .donation-plan {
+     text-align: center;
+     height: 650px;
+ }
+ 
+ .donation-plan-heading {
+     text-transform: capitalize;
+     font-size: 65px;
+     margin-bottom: 10px;
+     font-weight: 600;
+     margin-top: 100px;
+ }
+ 
+ .donation-plan-text {
+     width: 750px;
+     margin: 0 auto;
+     font-size: 20px;
+     margin-bottom: 40px;
+     font-weight: 400;
+     opacity: 0.5;
+ }
+ 
+ .donation-plan-item-container {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .donation-plan-item1 {
+     margin: 0 10px;
+     background-color: #EDF5F6;
+     width: 320px;
+     height: 312px;
+     border-radius: 8px;
+     text-align: left;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ 
+ .donation-plan-item2 {
+     margin: 0 10px;
+     background-color: #FFEEEE;
+     width: 320px;
+     height: 312px;
+     border-radius: 8px;
+     text-align: left;
+     padding-left: 20px;
+     padding-right: 10px;
+ }
+ 
+ .donation-plan-item3 {
+     margin: 0 10px;
+     background-color: #FFF4D6;
+     width: 320px;
+     height: 312px;
+     border-radius: 8px;
+     text-align: left;
+     padding-left: 20px;
+ }
+ 
+ .donation-plan-item-text {
+     font-size: 18px;
+     color: #707070;
+ }
+ 
+ .food-icon {
+     width: 60px;
+     margin-top: 30px;
+ }
+ 
+ .shelter-icon {
+     width: 50px;
+     margin-top: 30px;
+ }
+ 
+ .education-medicine-icon {
+     width: 40px;
+     margin-top: 30px;
+ }
+ /* Donation Plan Section Design End Here */
+ /* Donate benifit Section Start Here  */
+ 
+ .donate-benifit-section {
+     display: flex;
+     margin-top: 100px;
+     height: 700px;
+     justify-content: center;
+     margin-left: 150px;
+     margin-right: 150px;
+ }
+ 
+ .benifit-section-img {
+     width: 40%;
+     height: 700px;
+ }
+ 
+ .donate-benifit-div {
+     background-color: #CDE4F2;
+     width: 60%;
+ }
+ 
+ .donate-benifit-heading {
+     font-size: 60px;
+     margin-left: 30px;
+ }
+ 
+ .plus {
+     color: red;
+     font-size: 70px;
+ }
+ 
+ .donate-benifit-text-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 30px;
+ }
+ 
+ .donate-benifit-text-item1,
+ .donate-benifit-text-item2 {
+     margin-left: 100px;
+     margin-top: 50px;
+ }
+ 
+ .donate-benifit-item1-heading {
+     margin-top: 0;
+ }
+ 
+ .donate-benifit-item2-heading {
+     margin-top: 0;
+ }
+ 
+ .bangladesh-icon,
+ .love-icon {
+     width: 80px;
+ }
+ /* Donate benifit Section End Here */
+ /* Update Sectioon Design Start Here  */
+ 
+ .update-section {
+     text-align: center;
+     height: 490px;
+ }
+ 
+ .update-heading {
+     text-transform: capitalize;
+     font-size: 65px;
+     margin-bottom: 10px;
+     font-weight: 600;
+     margin-top: 100px;
+ }
+ 
+ .update-text {
+     width: 680px;
+     margin: 0 auto;
+     color: #707070;
+     margin-top: 20px;
+     font-size: 20px;
+ }
+ 
+ .update-form {
+     width: 800px;
+     height: 200px;
+     background-color: #FFF4D6;
+     margin: 80px auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 50px;
+ }
+ 
+ input[type=email] {
+     width: 275px;
+     height: 48px;
+     border: none;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     background-color: #D9D9D9;
+     text-align: left;
+ }
+ 
+ ::placeholder {
+     padding: 10px;
+     font-size: 16px;
+     font-weight: bolder;
+     opacity: 0.5;
+ }
+ 
+ .form-btn {
+     width: 157px;
+     height: 50px;
+     background-color: #FF5959;
+     border: none;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     color: white;
+     font-size: 16px;
+     font-weight: bolder;
+ }
+ /* Update Sectioon Design End Here  */
+ /* footer section design start here */
+ 
+ .footer {
+     height: 177px;
+     background-color: #0B0D17;
+     text-align: center;
+ }
+ 
+ .footer-div {
+     text-align: center;
+     margin-top: 20px;
+     padding: 10px;
+ }
+ 
+ .footer-heading {
+     color: #FF5959;
+     font-family: 'Lobster', cursive;
+ }
+ 
+ .footer-text {
+     color: #707070;
+ }
+ /* footer section design End here */
